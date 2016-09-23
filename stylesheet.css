@@ -2,9 +2,23 @@ table
 {
     width:100%;
     font: 20px Arial, cursive;
+    border-collapse: collapse;
 }
     th,td
     {
         text-align: center;
         border-bottom: solid 2px;
     }
+    tr
+    {
+        height: 150px;
+    }
+    th{
+        font-size: larger;
+        color: white;
+        background-color: green;
+       
+    }
+    
+    tr:nth-child(even) {background-color: #f2f2f2}
+    
