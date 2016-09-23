@@ -1,0 +1,10 @@
+table
+{
+    width:100%;
+    font: 20px Arial, cursive;
+}
+    th,td
+    {
+        text-align: center;
+        border-bottom: solid 2px;
+    }
